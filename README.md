@@ -4,7 +4,7 @@ Neste container contém o sql server 2017 para desenvolvimento local.
 
 ## Antes de começar
 
-Para rodar o container é necessário substituir as variáveis abaixo:
+Para rodar o container é necessário criar o arquivo `.env` a partir do `.env.modelo` e substituir as variáveis abaixo:
 
 * `%APP_NAME%`: Nome do container
 * `%APP_DB_PASS%`: Senha do usuário **sa**
