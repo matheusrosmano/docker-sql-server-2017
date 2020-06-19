@@ -8,6 +8,7 @@ services:
     environment:
       MSSQL_SA_PASSWORD: ${APP_DB_PASS}
       ACCEPT_EULA: Y
+      MSSQL_LCID: 1046
     volumes:
       - db_data:/var/opt/mssql/data
       - ./logs:/var/opt/mssql/log
