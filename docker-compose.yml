@@ -9,6 +9,7 @@ services:
       MSSQL_SA_PASSWORD: ${APP_DB_PASS}
       ACCEPT_EULA: Y
       MSSQL_LCID: 1046
+      MSSQL_MEMORY_LIMIT_MB: ${APP_MEMORY_MAX_LIMIT}
     volumes:
       - db_data:/var/opt/mssql/data
       - ./logs:/var/opt/mssql/log
