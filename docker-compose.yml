@@ -6,7 +6,7 @@ services:
     ports:
       - ${APP_DB_PORT}:1433
     environment:
-      MSSQL_SA_PASSWORD: ${APP_DB_PASS}
+      MSSQL_SA_PASSWORD: ${APP_DB_SA_PASS}
       ACCEPT_EULA: Y
       MSSQL_LCID: 1046
       MSSQL_MEMORY_LIMIT_MB: ${APP_MEMORY_MAX_LIMIT}
