@@ -13,7 +13,7 @@ Para rodar o container é necessário criar o arquivo `.env` a partir do `.env.m
 
 ## Desenvolvimento
 
-Siga os passos abaixo:
+Siga os passos abaixo para criar login e database para usar no projeto:
 
 ```sql
 CREATE LOGIN <usuario> WITH password='<senha>';
